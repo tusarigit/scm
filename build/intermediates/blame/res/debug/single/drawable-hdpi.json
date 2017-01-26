@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\venish\\Desktop\\scms\\scm1\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
+        "source": "C:\\Users\\venish\\Desktop\\scms\\scm1\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\venish\\Desktop\\scms\\scm1\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\wrong.png",
+        "source": "C:\\Users\\venish\\Desktop\\scms\\scm1\\res\\drawable-hdpi\\wrong.png"
+    },
+    {
+        "merged": "C:\\Users\\venish\\Desktop\\scms\\scm1\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_drawer.png",
+        "source": "C:\\Users\\venish\\Desktop\\scms\\scm1\\res\\drawable-hdpi\\ic_drawer.png"
+    },
+    {
+        "merged": "C:\\Users\\venish\\Desktop\\scms\\scm1\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\correct.png",
+        "source": "C:\\Users\\venish\\Desktop\\scms\\scm1\\res\\drawable-hdpi\\correct.png"
+    }
+]

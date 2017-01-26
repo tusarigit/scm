@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#009ACD"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_horizontal" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Add Passcode"
+            android:textColor="#ffffff"
+            android:textSize="35dip"
+            android:textStyle="bold" >
+        </TextView>
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:paddingLeft="10dip" >
+
+        <TableRow>
+
+            <EditText
+                android:id="@+id/confname"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:hint="Enter Conference Name"
+                android:text="" >
+            </EditText>
+        </TableRow>
+
+        <TableRow>
+
+            <EditText
+                android:id="@+id/accessno"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:hint="Enter Access Number"
+                android:inputType="number"
+                android:text="" >
+            </EditText>
+        </TableRow>
+
+        <TableRow>
+
+            <EditText
+                android:id="@+id/passcode"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=" 4"
+                android:hint="Enter Passcode (Moderator/Participant)"
+                android:inputType="number"
+                android:text="" >
+            </EditText>
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_horizontal" >
+
+        <TextView
+            android:id="@+id/submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/submit" >
+        </TextView>
+    </LinearLayout>
+
+</LinearLayout>

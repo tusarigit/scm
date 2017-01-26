@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="armeabi-v7a,armeabi"
+    api-level="16"
+    density="ldpi"
+    format="8"
+    plugin-version="2.2.3"
+    timestamp="24240317458815"
+    token="1825102197270196436"
+    verifier="FULL_BUILD_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="16059" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="1527" />
+    <task
+        name="verifier"
+        duration="245" />
+
+    <artifact
+        location="C:\Users\venish\Desktop\scms\scm1\build\outputs\apk\scm1-debug.apk"
+        type="MAIN" />
+
+    <build
+        timestamp="24240317458815"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="C:\Users\venish\Desktop\scms\scm1\build\outputs\apk\scm1-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>
